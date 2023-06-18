@@ -1,38 +1,46 @@
-.App {
+.app {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-title {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.kanban-board {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.column {
+  flex: 1;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.column-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  min-height: 100px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.card {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #d0d0d0;
 }

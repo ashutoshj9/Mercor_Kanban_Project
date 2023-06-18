@@ -1,0 +1,49 @@
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card:hover {
+  background-color: #d0d0d0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.card-title {
+  font-size: 16px;
+  margin-bottom: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.card-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: left;
+  /* margin-left: 8px; */
+  margin-right: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.count {
+  position: absolute;
+  bottom: 4px;
+  right: 10px;
+}
+
+.count_name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: #666666;
+}
+/* IMAGE IN CARD */
